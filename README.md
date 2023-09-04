@@ -1,10 +1,10 @@
 # round-robin
-round-robin is balancing algorithm written in golang
+generic round-robin is balancing algorithm written in golang
 
 ## Installation
 
 ```shell
-go get github.com/hlts2/round-robin
+go get github.com/pyropy/round-robin
 ```
 
 ## Example
@@ -28,4 +28,4 @@ rr.Next() // {Host: "192.168.33.11"}
 [hlts2](https://github.com/hlts2)
 
 ## LICENSE
-round-robin released under MIT license, refer [LICENSE](https://github.com/hlts2/round-robin/blob/master/LICENSE) file.
+round-robin released under MIT license, refer [LICENSE](https://github.com/pyropy/round-robin/blob/master/LICENSE) file.
