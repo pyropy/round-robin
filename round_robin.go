@@ -19,7 +19,7 @@ type roundrobin[T any] struct {
 }
 
 // New returns RoundRobin implementation(*roundrobin).
-func New[T any](items ...T) (RoundRobin[T], error) {
+func New[T any](items []T) (RoundRobin[T], error) {
 	if len(items) == 0 {
 		return nil, ErrItemDoesNotExist
 	}
