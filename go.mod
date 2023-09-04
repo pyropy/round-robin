@@ -1,3 +1,3 @@
-module github.com/hlts2/round-robin
+module github.com/pyropy/round-robin
 
-go 1.21.0
+go 1.20
